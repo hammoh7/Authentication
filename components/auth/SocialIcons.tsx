@@ -1,6 +1,6 @@
 "use client";
 
-import { GitHub, Google, Instagram } from "@mui/icons-material";
+import { GitHub, Google, Microsoft } from "@mui/icons-material";
 import { Button } from "../ui/button";
 
 export const SocialIcons = () => {
@@ -13,7 +13,7 @@ export const SocialIcons = () => {
         <GitHub className="h-5 w-5 " />
       </Button>
       <Button size="lg" className="w-full" variant="outline" onClick={() => {}}>
-        <Instagram className="h-5 w-5 " />
+        <Microsoft className="h-5 w-5 " />
       </Button>
     </div>
   );
