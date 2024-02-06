@@ -6,15 +6,16 @@
 2. Run ```npm install```
 3. Create a .env file (No need to create if already exist)
    Copy below thing with your appropriate API keys
-   ```DATABASE_URL=""
-  AUTH_SECRET=""
-  MAIL_API_KEY=
+   ```
+   DATABASE_URL=""
+   AUTH_SECRET=""
+   MAIL_API_KEY=
 
-  Github_Id=
-  Github_Secret=
+   Github_Id=
+   Github_Secret=
 
-  Google_Id=
-  Google_Secret=
+   Google_Id=
+   Google_Secret=
    ```
 4. Then, run the development server:
 
