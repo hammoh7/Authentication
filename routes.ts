@@ -5,6 +5,7 @@
 */
 export const publicRoutes = [
     "/",
+    "/confirm-verification"
 ];
 
 /*
@@ -15,6 +16,9 @@ export const publicRoutes = [
 export const authRoutes = [
     '/Login',
     '/Register',
+    '/error',
+    '/reset',
+    '/reset-password'
 ];
 
 /*
@@ -28,4 +32,4 @@ export const apiAuthPrefix = "/api/auth";
  * The default redirect path after logging in
  * @type {string} 
 */
-export const Default_Login_Redirect = "/settings"
+export const Default_Login_Redirect = "/server"
