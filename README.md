@@ -21,7 +21,6 @@
    Google_Secret=
    ```
 5. Then, run the development server:
-   bash:
    ```
    npm run dev
    ```
