@@ -6,8 +6,7 @@
 2. Run ```npm install```
 3. Create a .env file (No need to create if already exist)
    Copy below thing with your appropriate API keys
-   ```
-  DATABASE_URL=""
+   ```DATABASE_URL=""
   AUTH_SECRET=""
   MAIL_API_KEY=
 
