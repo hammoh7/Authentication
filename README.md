@@ -3,8 +3,11 @@
 ## Getting Started
 
 1. Clone the project
-2. Run ```npm install```
-3. Create a .env file (No need to create if already exist)
+2. Run
+   ```
+   npm install
+   ```
+4. Create a .env file (No need to create if already exist).
    Copy below thing with your appropriate API keys
    ```
    DATABASE_URL=""
@@ -17,7 +20,7 @@
    Google_Id=
    Google_Secret=
    ```
-4. Then, run the development server:
+5. Then, run the development server:
 
 ```bash
 npm run dev
