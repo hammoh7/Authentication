@@ -3,7 +3,7 @@
 import React from "react";
 import { Card, CardHeader, CardContent, CardFooter } from "../ui/card";
 import { Header } from "@/components/auth/header";
-import { SocialIcons } from "@/components/auth/SocialIcons";
+import { SocialIcons } from "@/components/auth/social-icons";
 import { BackButton } from "@/components/auth/back-button";
 
 interface LoginProps {
