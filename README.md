@@ -1,4 +1,5 @@
 # Authentication
+### Development in Progress
 
 ## Getting Started
 
@@ -20,7 +21,12 @@
    Google_Id=
    Google_Secret=
    ```
-5. Then, run the development server:
+5. Run the following commands:
+   ```
+   npx prisma generate
+   npx prisma db push
+   ```   
+6. Then, run the development server:
    ```
    npm run dev
    ```
