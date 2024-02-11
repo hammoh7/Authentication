@@ -42,7 +42,7 @@ export const VerificationForm = () => {
           <Header label="Confirm your Verification" />
         </CardHeader>
         <div className="items-center justify-center flex">
-          {!success && !error && <ClipLoader />}
+          {!success && !error && ( <ClipLoader /> )}
           <FormSuccess message={success} />
           {!success && <FormError message={error} />}
         </div>
